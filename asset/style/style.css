@@ -1,0 +1,966 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 2rem;
+}
+
+.color-secondary {
+    color: #2F2E41;
+}
+
+.color-primary {
+    color: #6C63FF;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.125rem;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #6C63FF;
+    border: 1px solid #6C63FF;
+}
+
+.btn-secondary {
+    color: #6C63FF;
+    border: 1px solid #6C63FF;
+}
+
+.h1 {
+    font-size: 4.375rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: #2F2E41;
+}
+
+.h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.h4 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 130%;
+    color: #82828D;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0 2em;
+    font-size: 1.125rem;
+}
+
+.nav-left a svg {
+    display: block;
+}
+
+.nav-center ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right .nav-right-masuk {
+    margin-right: 0.75rem;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-dark {
+    background-color: #E6E6E6;
+}
+
+.nav-dark .btn-primary {
+    color: #E6E6E6;
+}
+
+/* CONTENT-1 */
+.content-1 {
+    display: flex;
+    margin-top: 4.5rem;
+    padding: 4.75rem 0;
+}
+
+.content-1-left,
+.content-1-right {
+    min-height: 28.5rem;
+    position: relative;
+    width: 50%;
+}
+
+.content-1-left>p {
+    padding: 2rem 0;
+}
+
+.button,
+.button a {
+    display: flex;
+    align-items: center;
+}
+
+.button a svg {
+    margin-right: 0.75rem;
+}
+
+.button a:first-child:hover {
+    color: #6C63FF;
+    background-color: #FFFFFF;
+}
+
+.button a:last-child {
+    padding: 0;
+    margin-left: 0.75rem;
+    color: #82828D;
+}
+
+.button a:last-child:hover {
+    font-weight: 600;
+}
+
+.ceklis {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    gap: 1.25rem;
+}
+
+.ceklis-box {
+    display: flex;
+    align-items: center;
+}
+
+.ceklis-box svg {
+    margin-right: 0.5rem;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* CONTENT-2 */
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 0;
+}
+
+.content-2-kolabs h5 {
+    color: #2F2E41;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.content-2-kolabs h5>span {
+    color: #6C63FF;
+}
+
+.content-2-kolabs-instansi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5.625rem;
+}
+
+/* CONTENT-3 */
+.content-3-title {
+    padding: 3.125rem 0;
+}
+
+.content-3-title h2 {
+    color: #2F2E41;
+    margin-bottom: 2rem;
+}
+
+.content-3-title {
+    text-align: center;
+}
+
+.content-3-keunggulan {
+    padding-bottom: 3.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.keunggulan {
+    padding: 0 0.75rem;
+    max-width: 23rem;
+    position: relative;
+    min-height: 12.8rem;
+}
+
+.keunggulan p {
+    font-size: 1rem;
+}
+
+.keunggulan span {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2F2E41;
+}
+
+.underline-blue {
+    border-bottom: 3px solid #2B6BF3;
+}
+
+.underline-orange {
+    border-bottom: 3px solid #F27B59;
+}
+
+.underline-green {
+    border-bottom: 3px solid #3ED09F;
+}
+
+.w-1 {
+    width: 13.25rem;
+    color: #82828D;
+}
+
+.w-2 {
+    width: 18rem;
+    color: #82828D;
+}
+
+.w-3 {
+    width: 21rem;
+    color: #82828D;
+}
+
+.keunggulan>p {
+    padding: 0.75rem 0;
+}
+
+.keunggulan a p {
+    padding-right: 12px;
+}
+
+.keunggulan a {
+    color: #6C63FF;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    bottom: 0;
+}
+
+.keunggulan .p {
+    font-weight: 400;
+}
+
+/* CONTENT-4 */
+.content-4 {
+    background-color: #6C63FF;
+    padding: 5rem 0;
+}
+
+.content-4-kursus-title h3,
+.content-4-kursus-title p {
+    color: #FFFFFF;
+}
+
+.content-4-kursus-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+.content-4-kursus-title p {
+    padding: 2rem 0;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+    padding: 1.25rem 1rem;
+}
+
+.card-text-title {
+    display: block;
+    min-height: 5rem;
+}
+
+.card-text-title h5 {
+    color: #2F2E41;
+}
+
+.card-text p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 100%;
+    padding: 1.5rem 0;
+    color: #82828D;
+}
+
+.card-text a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: #82828D;
+}
+
+.card:hover {
+    transition: 500ms;
+    box-shadow: 4px 0px 10px 8px #2F2E41;
+    margin-top: -15px;
+}
+
+/* CONTENT-5 */
+.content-5 {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.content-5-title {
+    text-align: center;
+}
+
+.content-5-title h3 {
+    color: #2F2E41;
+}
+
+.content-5-title p {
+    padding: 2rem 0;
+}
+
+.content-5-content-up {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content-5-content-down {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.kategori {
+    height: 8.063rem;
+    width: 16.5rem;
+    padding: 1.25rem;
+    border-radius: 10px;
+    color: #2F2E41;
+    cursor: pointer;
+    float: left;
+}
+
+.kategori .kategori-icon {
+    height: 100%;
+    float: left;
+}
+
+.kategori .kategori-icon svg {
+    margin-right: 1.25rem;
+}
+
+.kategori h2 {
+    font-size: 1.2rem;
+    font-size: 400;
+}
+
+.kategori p {
+    padding-top: 8px;
+    font-size: 1rem;
+    font-size: 300;
+}
+
+.kategori:hover {
+    color: #FFFFFF;
+    transition: 500ms;
+    background-color: #6C63FF;
+}
+
+/* TEAM */
+.team {
+    padding-bottom: 3.125rem;
+}
+
+.team-title {
+    text-align: center;
+}
+
+.team-title h3 {
+    color: #2F2E41;
+}
+
+.team-title p {
+    padding: 2rem 0;
+}
+
+.card-profile {
+    display: flex;
+    padding: 1rem 1.25rem;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px dashed #2F2E41;
+    gap: 1rem;
+}
+
+.foto {
+    display: flex;
+}
+
+.deskripsi {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.deskripsi h4 {
+    color: #6C63FF;
+    font-size: 1.25rem;
+}
+
+.deskripsi p {
+    color: #82828D;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+}
+
+.team-content-up,
+.team-content-down {
+    display: flex;
+    gap: 1rem;
+}
+
+.team-content-down {
+    padding-top: 1rem;
+}
+
+/* BIODATA */
+aside {
+    background-color: #E6E6E6;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.biodata {
+    text-align: center;
+}
+
+.biodata-title h3 {
+    color: #2F2E41;
+}
+
+.biodata-title p {
+    padding: 2rem 0;
+}
+
+.biodata-content img {
+    border-radius: 50%;
+}
+
+.biodata-content h3 {
+    padding-top: 1rem;
+    color: #82828D;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.biodata-content p {
+    color: #82828D;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+/* FOOTER */
+footer {
+    padding: 1rem 0rem;
+    background-color: #6C63FF;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* Lebar layar Tablet (768 px) */
+@media only screen and (max-width: 768px) {
+
+    /* NAVIGASI */
+    .nav-center {
+        display: none;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+        cursor: pointer;
+    }
+
+    /* TYPOGRAPY */
+    .h1 {
+        font-size: 2.5rem;
+    }
+
+    .h2 {
+        font-size: 2.3rem;
+    }
+
+    .h4 {
+        font-size: 1.25rem;
+    }
+
+    .h5 {
+        font-size: 1.25rem;
+    }
+
+    .p {
+        font-size: 0.7rem;
+    }
+
+    .btn {
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    /* CONTENT-1 */
+    .content-1 {
+        padding: 2.25rem 0;
+    }
+
+    .content-1-left,
+    .content-1-right {
+        min-height: 20rem;
+        position: relative;
+        width: 50%;
+    }
+
+    .content-1-left>p {
+        padding: 1.3rem 0;
+    }
+
+    .ceklis {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        gap: 1rem;
+    }
+
+    .ceklis-box svg {
+        margin-right: 0.5rem;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    /* CONTENT-2 */
+    .content-2-kolabs-instansi {
+        gap: 2rem;
+    }
+
+    .content-2-kolabs-instansi img {
+        width: 15%;
+    }
+
+    /* CONTENT-3 */
+    .content-3-keunggulan {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .keunggulan {
+        min-width: 100%;
+        min-height: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .w-1,
+    .w-2,
+    .w-3 {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 1.2rem;
+    }
+
+    .content-3-title>p {
+        font-size: 0.9rem;
+    }
+
+    .keunggulan p {
+        font-size: 1rem;
+    }
+
+    /* CONTENT-4 */
+
+    .card-text-title {
+        min-height: 2.25rem;
+    }
+
+    /* CONTENT-5 */
+    .content-5-content-up,
+    .content-5-content-down {
+        gap: 1rem;
+    }
+
+    .kategori {
+        max-height: 7rem;
+        padding: 0.8rem;
+        border-radius: 10px;
+        color: #2F2E41;
+        cursor: pointer;
+        float: left;
+        position: relative
+    }
+
+    .kategori .kategori-icon svg {
+        width: 60%;
+        margin-right: 0rem;
+    }
+
+    .kategori h2 {
+        font-size: 0.8rem;
+        font-size: 400;
+    }
+
+    .kategori p {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 0.8rem;
+        font-size: 0.8rem;
+        font-size: 300;
+    }
+
+    /* TEAM */
+    .card-profile {
+        padding: 0.8rem 1rem;
+    }
+
+    .foto {
+        padding-right: 0;
+    }
+
+    .foto img {
+        height: 65%;
+    }
+
+    .deskripsi h4 {
+        font-size: 1rem;
+    }
+
+    /* BIODATA */
+    .biodata-content img {
+        width: 28%;
+    }
+
+    .biodata-content h3 {
+        padding-top: 1rem;
+        color: #82828D;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .biodata-content p {
+        color: #82828D;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+/* Lebar layar Mobile (320 px) */
+@media only screen and (max-width: 320px) {
+    nav {
+        padding: 0 1rem;
+    }
+
+    .container {
+        margin: 0 1rem;
+    }
+
+    /* TYPOGRAPY */
+    .h1 {
+        font-size: 2.3rem;
+    }
+
+    .h2 {
+        font-size: 2rem;
+    }
+
+    .h5 {
+        font-size: 1rem;
+    }
+
+    .p {
+        font-size: 0.6rem;
+        text-align: justify;
+    }
+
+    .btn {
+        height: 3rem;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    /* CONTENT-1 */
+    .content-1 {
+        padding: 1.5rem 0;
+        margin-top: 4.75rem;
+    }
+
+    .content-1-left {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+
+    .content-1-left>p {
+        text-align: justify;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3.5rem;
+    }
+
+    .button a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button a:last-child {
+        margin-left: 0;
+        margin-top: 8px;
+        border: 1px solid #82828D;
+    }
+
+    .content-1-right {
+        display: none;
+    }
+
+    .content-1-left>p {
+        padding: 1.3rem 0;
+    }
+
+    .ceklis {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        gap: 0.5rem;
+    }
+
+    /* CONTENT-2 */
+    .content-2 {
+        padding: 1.5rem 0;
+    }
+
+    .content-2-kolabs-instansi {
+        gap: 1rem;
+    }
+
+    .content-2-kolabs-instansi img {
+        width: 14%;
+    }
+
+    /* CONTENT-3 */
+    .content-3-title p br {
+        display: none;
+    }
+
+    /* CONTENT-4 */
+    .content-4 {
+        padding: 2.5rem 0;
+    }
+
+    .content-4-kursus-card {
+        flex-direction: column;
+    }
+
+    .card:hover {
+        box-shadow: 0px 0px 10px 8px #2F2E41;
+        margin-top: 0;
+    }
+
+    /* CONTENT-5 */
+    .content-5-title br {
+        display: none;
+    }
+
+    .content-5 {
+        margin-top: 3.125rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .content-5-title h3 {
+        text-align: center;
+    }
+
+    .content-5-title p {
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    .content-5-content-up,
+    .content-5-content-down {
+        flex-direction: column;
+    }
+
+    .kategori .kategori-icon svg {
+        width: 100%;
+    }
+
+    .kategori-icon {
+        margin-right: 1rem;
+        height: 100%;
+    }
+
+    .kategori {
+        padding: 1rem;
+        width: 100%;
+        min-height: 8rem;
+    }
+
+    .kategori h2 {
+        font-size: 1.4rem;
+        font-size: 400;
+    }
+
+    .kategori p {
+        position: absolute;
+        padding: 0;
+        left: 4.5rem;
+        padding-bottom: 1rem;
+        font-size: 1rem;
+        font-size: 300;
+    }
+
+    /* TEAM */
+    .team-title br {
+        display: none;
+    }
+
+    .team-title p {
+        text-align: justify;
+    }
+
+    .team-content-up,
+    .team-content-down {
+        flex-direction: column;
+    }
+
+    .card-profile {
+        padding: 0.8rem 1rem;
+    }
+
+    .foto {
+        padding-right: 0;
+    }
+
+    .foto img {
+        height: 100%;
+    }
+
+    .deskripsi h4 {
+        font-size: 1.4rem;
+    }
+
+    .deskripsi p {
+        font-size: 1rem;
+    }
+
+    /* BIODATA */
+    .biodata-title p {
+        text-align: justify;
+    }
+
+    .biodata-title br {
+        display: none;
+    }
+
+    .biodata-content img {
+        width: 50%;
+    }
+
+    .biodata-content h3 {
+        padding-top: 0.8rem;
+        color: #82828D;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .biodata-content p {
+        color: #82828D;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
+    /* FOOTER */
+    footer p {
+        font-size: 0.6rem;
+    }
+}
